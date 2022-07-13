@@ -14,11 +14,13 @@ public class Test {
     phone_number long,
     email varchar(50));
 
-    select * from address_book;
+
     insert into address_book values("Niha","Rika","Colony Address","Hyd","TS",78364,9494291232,"NihaMS@gmail.com");
 
     SET SQL_SAFE_UPDATES = 0;
     update address_book set city ="kukatpally" where first_name = "Niha";
 
     delete from address_book  where first_name = "Niha";
+
+    select * from address_book;
 }
