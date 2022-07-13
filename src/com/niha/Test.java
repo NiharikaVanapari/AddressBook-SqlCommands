@@ -27,4 +27,6 @@ public class Test {
     select * from address_book where city = "hyd" or state = "TS";
 
     select count(state&city) from address_book;
+
+    select * from address_book order by first_name;
 }
