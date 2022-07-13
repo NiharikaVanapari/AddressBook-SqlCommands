@@ -19,4 +19,6 @@ public class Test {
 
     SET SQL_SAFE_UPDATES = 0;
     update address_book set city ="kukatpally" where first_name = "Niha";
+
+    delete from address_book  where first_name = "Niha";
 }
