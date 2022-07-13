@@ -14,4 +14,6 @@ public class Test {
     phone_number long,
     email varchar(50));
 
+    select * from address_book;
+    insert into address_book values("Niha","Rika","Colony Address","Hyd","TS",78364,9494291232,"NihaMS@gmail.com");
 }
